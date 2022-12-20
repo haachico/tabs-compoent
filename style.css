@@ -8,8 +8,12 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: #fdf4ff;
+}
+
 .container {
-  margin: 4rem auto;
+  margin: 8rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,6 +23,8 @@ html {
 h1 {
   font-size: 3rem;
   margin-bottom: 4rem;
+  color: #1e3a8a;
+  text-decoration: underline;
 }
 
 .btns-container {
@@ -56,7 +62,7 @@ h1 {
 }
 
 .btn-active {
-  transform: translateY(-66%);
+  transform: translateY(-10%);
 }
 
 .text-content {
@@ -70,4 +76,28 @@ h1 {
 
 .text-content-active {
   display: grid;
+}
+
+.text-content-1 {
+  border: 1px solid black;
+  line-height: 2;
+  margin-top: 2rem;
+  background-color: #fef08a;
+  padding: 3rem 6rem;
+}
+
+.text-content-2 {
+  border: 1px solid black;
+  line-height: 2;
+  margin-top: 2rem;
+  background-color: #d9f99d;
+  padding: 3rem 6rem;
+}
+
+.text-content-3 {
+  border: 1px solid black;
+  line-height: 2;
+  margin-top: 2rem;
+  background-color: #a5f3fc;
+  padding: 3rem 6rem;
 }
